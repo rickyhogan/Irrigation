@@ -1,6 +1,12 @@
 # Irrigation
 Rpi controlled irrigation
 
+This is a Tkinter GUI that allows user to choose which solenoids are opened/closed when watering.
+the GUI is programmed for 0.25 gallon metering and waters up to 3 gallons each solenoid.
+very easy to use push button command and dropbox watering amount options.
+also programmed a 'drain' button to pump all water from drum through the purge solenoid.
+The watering options can be changed easily in the code as well as how many solenoids. (add/removed)
+
 This uses the following items:
 Rpi 3b+ , with power cord & 32gb sd (1)
 
