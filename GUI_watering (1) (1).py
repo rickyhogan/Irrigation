@@ -3,7 +3,6 @@ import Tkinter as tk
 import RPi.GPIO as GPIO
 import megaio
 import time,sys
-import signal
 
 GPIO.setmode(GPIO.BOARD)
 global inpt
@@ -35,7 +34,6 @@ def center(toplevel):
     
 class start(tk.Tk):
     
-
     def __init__(self, *args, **kwargs):
        
         tk.Tk.__init__(self, *args, **kwargs)
